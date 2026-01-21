@@ -9,7 +9,7 @@ cv:
       username: "josheluis96"
   sections:
     summary:
-      - "Ingeniero de Sistemas con más de 7 años de trayectoria en el ciclo completo de desarrollo de software, principalmente en los sectores financiero y de telecomunicaciones. Especializado en la implementación de arquitecturas de microservicios y sistemas orientados a eventos con NestJS, Java (Spring Boot/Quarkus) y Kafka. Cuento con experiencia práctica en desarrollo móvil (React Native) y modernización de aplicaciones, integrando conocimientos de ingeniería de datos (Hadoop) y despliegues en nube (AWS/OpenShift). Orientado a la resolución de problemas técnicos complejos y a la colaboración en equipos multidisciplinarios."
+      - "Ingeniero de Sistemas con más de 7 años de trayectoria en el ciclo completo de desarrollo de software, principalmente en los sectores financiero y de telecomunicaciones. Especializado en la implementación de arquitecturas de microservicios y sistemas orientados a eventos con NestJS, Java (Spring Boot/Quarkus) y Kafka. Cuento con experiencia práctica en desarrollo móvil (React Native) y modernización de aplicaciones, integrando conocimientos de ingeniería de datos (Hadoop) y despliegues en nube (AWS/OpenShift). Orientado a la resolución de problemas técnicos complejos y a la colaboración en equipos multidisciplinarios. [Este CV está versionado como código: github.com](https://github.com/josheluis96/curriculum-vitae)"
     
     experience:
       - company: "Banco Pichincha"
