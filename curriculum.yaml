@@ -1,0 +1,94 @@
+cv:
+  name: "Jose Luis Churo Vicente"
+  email: "josheluis96@gmail.com"
+  phone: "+593968297406"
+  social_networks:
+    - network: "LinkedIn"
+      username: "jose-luis-churo-vicente"
+    - network: "GitHub"
+      username: "josheluis96"
+  sections:
+    summary:
+      - "Ingeniero de Sistemas con más de 7 años de trayectoria en el ciclo completo de desarrollo de software, principalmente en los sectores financiero y de telecomunicaciones. Especializado en la implementación de arquitecturas de microservicios y sistemas orientados a eventos con NestJS, Java (Spring Boot/Quarkus) y Kafka. Cuento con experiencia práctica en desarrollo móvil (React Native) y modernización de aplicaciones, integrando conocimientos de ingeniería de datos (Hadoop) y despliegues en nube (AWS/OpenShift). Orientado a la resolución de problemas técnicos complejos y a la colaboración en equipos multidisciplinarios."
+    
+    experience:
+      - company: "Banco Pichincha"
+        position: "Frontend and Backend Developer"
+        location: "Quito, Ecuador"
+        start_date: "2022-01"
+        end_date: "present"
+        summary: "Tecnologías utilizadas: React Native, NestJS, DynamoDB, Redis, Kafka, AWS, Dynatrace, TypeScript, Angular, Framebanking "
+        highlights:
+          - "App Deuna: Desarrollo de billetera digital usando React Native (Android/iOS) - Onboarding - Login - [Android Google Play Store](https://play.google.com/store/apps/details?id=com.appdeuna.wallet&pcampaignid=web_share) - [IOS App Store](https://apps.apple.com/ec/app/deuna/id1490185584)"
+          - "Estados de Cuenta: Implementación y optimización de procesos masivos de envío utilizando un modelo de colas con BullMQ, NestJS y DynamoDB."
+          - "Pago de Comisiones: Optimización de procesos masivos hacia comercios utilizando NestJS, PostgreSQL, Kafka, Framebanking y Mambu."
+          - "Migración de Angular 16 a Angular 20."
+      
+      - company: "Global Hitss"
+        position: "Líder de Proyectos & Arquitecto de Microservicios"
+        location: "Guayaquil, Ecuador"
+        start_date: "2018-01"
+        end_date: "2022-01"
+        summary: "Tecnologías utilizadas: Spring Boot, Quarkus, Angular, RabbitMQ, Redis, Docker, OpenShift, Oracle PL/SQL, Keycloak."
+        highlights:
+          - "Motor de Crédito: Diseño de ecosistema de microservicios asíncronos para análisis crediticio y toma de decisiones autónomas usando Spring Boot, Quarkus y RabbitMQ."
+          - "Payback EDX: Automatización de procesos de negociación con clientes corporativos utilizando Keycloak, Angular y Oracle."
+          - "Regularización: Sistema de procesamiento de órdenes de venta en línea y evaluación de penalizaciones integrando diversas fuentes de datos."
+          - "BigData: Implementación de procesos ETL y análisis de datos en ecosistema de herramientas Hadoop, con Tablue como herramienta de visualización de datos."
+
+      
+      - company: "Sudamericana de Software"
+        position: "Ingeniero de Proyectos Junior"
+        location: "Guayaquil, Ecuador"
+        start_date: "2017-01"
+        end_date: "2018-01"
+        summary: "Tecnologías utilizadas: Java EE, JSP, Weblogic, Oracle, PLSQL, C"
+        highlights:
+          - "Desarrollo de proyectos en Java EE y Weblogic."
+          - "Creación y modificación de pantallas para módulos de ventas utilizando Java y JSP."
+          - "Creacion de Feature cobros y conciliacion: modulo de activacion de servicios utilizan C y PLSQL"
+    
+    education:
+      - institution: "Universidad de Guayaquil"
+        area: "Ingeniero en Sistemas Computacionales"
+        start_date: "2015-01"
+        end_date: "2022-01"
+    
+    skills:
+      - label: "Lenguajes"
+        details: "Java, TypeScript, JavaScript, Python, Bash, PL/SQL, SQL"
+      - label: "Frameworks Backend"
+        details: "Spring Boot, Spring Batch, Quarkus, NestJS, NodeJS, Microprofile, Hibernate/JPA"
+      - label: "Frontend & Mobile"
+        details: "Angular, React Native, PrimeNG"
+      - label: "Bases de Datos"
+        details: "PostgreSQL, Oracle SQL, MongoDB, DynamoDB, Redis, MySQL, Apache Hive, Apache Druid"
+      - label: "DevOps & Cloud"
+        details: "Docker, Kubernetes, OpenShift, AWS, Azure DevOps, Git, GitLab, Jenkins"
+      - label: "Big Data & Streaming"
+        details: "Apache Hadoop, Apache Kafka, RabbitMQ, Apache NiFi"
+    
+    certifications:
+
+      - name: "[SCRUM FOUNDATION](https://www.udemy.com/certificate/UC-72d37b5e-f6b1-4346-b48b-da8062da9fc2/)"
+        date: "2024-01"
+      - name: "[React Native CLI: Aplicaciones nativas para IOS y Android](https://www.udemy.com/certificate/UC-72d37b5e-f6b1-4346-b48b-da8062da9fc2/)"
+        date: "2024-01"
+      - name: "[Quarkus desarrollo Ágil de Microservicios, APIs y web Apps](https://www.udemy.com/certificate/UC-08e33a74-fe18-4b66-b855-c722fd4b60b5/)"
+        date: "2024-01"
+      - name: "[Python Practicando. Desde 0 hasta Desarrollador en Python](https://www.udemy.com/certificate/UC-a3994fa4-c958-449c-9557-a70f97487448/)"
+        date: "2024-11"
+      - name: "[Nest: Desarrollo backend escalable con Node](https://www.udemy.com/certificate/UC-a1c57b58-3e16-4268-a4f6-c532e89323d2/)"
+        date: "2024-11"
+      - name: "[Scrum Master Certified (SMCM)](https://www.scrumstudy.com/certification/verify?type=SMC&number=867391)"
+        date: "2022-07"
+      - name: "[Spring Framework 6 & Spring Boot 3 desde cero a experto 2024](https://www.udemy.com/certificate/UC-3ba974b6-9611-43ce-bcd8-a3e0896c454c/)"
+        date: "2020-02"
+      - name: "[Intérprete de Comandos de Linux. Aprende desde cero](https://www.udemy.com/certificate/UC-494134ba-fddf-4892-ab44-9e7627dd8381/)"
+        date: "2020-02"
+      - name: "[Curso Php y MySql - Aprende a trabajar con bases de datos](https://www.udemy.com/certificate/UC-569fd0eb-1c71-449c-ab0f-694ef4d4b93a/)"
+        date: "2020-02"
+      - name: "[Introducción a GraphQL desde las bases hasta crear APIs](https://www.udemy.com/certificate/UC-22c55a40-4bc7-4704-ac0d-83bf64eb1c91/)"
+        date: "2020-10"
+      - name: "[Legacy - Node: De cero a experto](https://www.udemy.com/certificate/UC-fc478c3c-e4f3-4796-8cb8-c2e9e80228a5/)"
+        date: "2020-02"
