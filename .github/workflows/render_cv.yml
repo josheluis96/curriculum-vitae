@@ -3,7 +3,7 @@ name: Render CV
 on:
   push:
     paths:
-      - 'cv.yaml' # Solo se ejecuta si modificas el YAML
+      - 'curriculum.yaml' # Solo se ejecuta si modificas el YAML
     branches:
       - main
   workflow_dispatch: # Permite ejecutarlo manualmente desde la pestaña Actions
