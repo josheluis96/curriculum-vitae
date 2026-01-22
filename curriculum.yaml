@@ -66,6 +66,12 @@ cv:
         details: "Docker, Kubernetes, OpenShift, AWS, Azure DevOps, Git, GitLab, Jenkins"
       - label: "Big Data & Streaming"
         details: "Apache Hadoop, Apache Kafka, RabbitMQ, Apache NiFi"
+
+    languages:
+      - label: "Español"
+        details: "Nativo"
+      - label: "Inglés"
+        details: "Básico (Lectura de documentación técnica)"
     
     certifications:
       - name: "[SCRUM FOUNDATION](https://www.udemy.com/certificate/UC-72d37b5e-f6b1-4346-b48b-da8062da9fc2/)"
