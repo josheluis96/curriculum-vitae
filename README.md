@@ -1,44 +1,47 @@
 # Curriculum Vitae | Jose Luis Churo Vicente
 
-![YAML](https://img.shields.io/badge/format-YAML-cb171e?style=flat-square&logo=yaml)
-![RenderCV](https://img.shields.io/badge/compatible-RenderCV-blueviolet?style=flat-square)
 [![Render CV](https://github.com/josheluis96/curriculum-vitae/actions/workflows/render_cv.yml/badge.svg)](https://github.com/josheluis96/curriculum-vitae/actions/workflows/render_cv.yml)
-![Status](https://img.shields.io/badge/status-Open%20to%20offers-green?style=flat-square)
+![YAML](https://img.shields.io/badge/format-YAML-cb171e?style=flat-square&logo=yaml)
+![RenderCV](https://img.shields.io/badge/built%20with-RenderCV-blueviolet?style=flat-square)
 
+Este repositorio contiene mi trayectoria profesional y habilidades técnicas estructuradas como **código (YAML)**.
 
-Este repositorio contiene mi trayectoria profesional, habilidades técnicas y certificaciones estructuradas en formato **YAML**.
+El objetivo es mantener una "fuente de la verdad" versionada de mi perfil, aplicando principios de **CI/CD** para generar automáticamente el documento final.
 
-El objetivo de este proyecto es mantener una "fuente de la verdad" de mi experiencia laboral, aplicando principios de versionamiento y datos estructurados a mi perfil profesional.
+## 📥 Descarga Rápida (PDF)
 
-## 📄 Sobre el CV
+No es necesario clonar el repositorio. El sistema genera una nueva versión automáticamente con cada actualización.
 
-El archivo principal `cv.yaml` contiene la siguiente información estructurada:
+👉 **[Descargar Último CV Actualizado (PDF)](https://github.com/josheluis96/curriculum-vitae/releases/download/latest/CV_Jose_Luis_Churo_Vicente.pdf)**
 
-- **Perfil Profesional:** Resumen de experiencia en desarrollo Full Stack, Microservicios y Data Engineering.
-- **Experiencia Laboral:** Historial detallado en empresas como Banco Pichincha, Global Hitss y Sudamericana de Software.
-- **Stack Tecnológico:**
-    - **Backend:** NestJS, Java (Spring Boot/Quarkus), Node.js.
-    - **Frontend & Mobile:** React Native, Angular.
-    - **Data & Cloud:** AWS, Kafka, Hadoop, Docker/Kubernetes.
-- **Educación y Certificaciones:** Títulos académicos y cursos relevantes validados.
+## ⚙️ Automatización (CI/CD)
 
-## 🎨 Generación de PDF (RenderCV)
+Este proyecto utiliza **GitHub Actions** para compilar el CV.
+Cada vez que se realiza un `push` a la rama `main` con cambios en el archivo `curriculum.yaml`:
 
-Este archivo `cv.yaml` ha sido estructurado para ser compatible con **RenderCV**. Puedes generar una versión en PDF profesional y basada en LaTeX directamente desde el navegador:
+1.  Se activa un workflow de integración continua.
+2.  **RenderCV** convierte el YAML a LaTeX y genera el PDF.
+3.  El PDF resultante se publica automáticamente en los **Releases** del repositorio.
 
-1. Visita **[RenderCV App](https://app.rendercv.com/)**.
-2. Sube o pega el contenido del archivo `cv.yaml`.
-3. Selecciona tu plantilla preferida (Classic, Modern, Sb2nov, etc.).
-4. Descarga el PDF compilado automáticamente.
+Puedes ver el archivo de configuración aquí: [render_cv.yml](.github/workflows/render_cv.yml).
 
-## 🛠 Estructura del YAML
+## 📄 Contenido del CV
 
-El esquema de datos sigue la siguiente estructura básica:
+El archivo principal [`curriculum.yaml`](curriculum.yaml) incluye:
+
+-   **Perfil:** Arquitectura de Microservicios, Data Engineering y Desarrollo Móvil.
+-   **Experiencia:** Banco Pichincha, Global Hitss, Sudamericana de Software.
+-   **Tecnologías:** NestJS, Kafka, AWS, React Native, Hadoop, etc.
+-   **Certificaciones:** Scrum Master, Quarkus, Spring Boot, etc.
+
+## 🛠 Estructura de Datos
+
+El esquema sigue la estructura estándar de RenderCV:
 
 ```yaml
 cv:
-  name: String
-  contact: Object
+  name: "Jose Luis Churo Vicente"
+  email: "..."
   sections:
     summary: String
     experience: Array<Job>
