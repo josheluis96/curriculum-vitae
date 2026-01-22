@@ -2,8 +2,9 @@
 
 ![YAML](https://img.shields.io/badge/format-YAML-cb171e?style=flat-square&logo=yaml)
 ![RenderCV](https://img.shields.io/badge/compatible-RenderCV-blueviolet?style=flat-square)
-![Status](https://img.shields.io/badge/status-Open%20to%20offers-green?style=flat-square)
 [![Render CV](https://github.com/josheluis96/curriculum-vitae/actions/workflows/render_cv.yml/badge.svg)](https://github.com/josheluis96/curriculum-vitae/actions/workflows/render_cv.yml)
+![Status](https://img.shields.io/badge/status-Open%20to%20offers-green?style=flat-square)
+
 
 Este repositorio contiene mi trayectoria profesional, habilidades técnicas y certificaciones estructuradas en formato **YAML**.
 
