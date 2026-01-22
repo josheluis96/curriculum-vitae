@@ -12,7 +12,7 @@ El objetivo es mantener una "fuente de la verdad" versionada de mi perfil, aplic
 
 No es necesario clonar el repositorio. El sistema genera una nueva versión automáticamente con cada actualización.
 
-👉 **[Descargar Último CV Actualizado (PDF)](https://github.com/josheluis96/curriculum-vitae/releases/download/latest/CV_Jose_Luis_Churo_Vicente.pdf)**
+👉 **[Descargar Último CV Actualizado (PDF)](https://github.com/josheluis96/curriculum-vitae/releases/latest)**
 
 ## ⚙️ Automatización (CI/CD)
 
