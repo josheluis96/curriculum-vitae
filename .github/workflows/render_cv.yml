@@ -1,0 +1,52 @@
+name: Render CV
+
+on:
+  push:
+    paths:
+      - 'cv.yaml' # Solo se ejecuta si modificas el YAML
+    branches:
+      - main
+  workflow_dispatch: # Permite ejecutarlo manualmente desde la pestaña Actions
+
+permissions:
+  contents: write # Necesario para crear Releases si decides usarlos
+
+jobs:
+  build-pdf:
+    runs-on: ubuntu-latest
+    name: Build and Upload CV
+    steps:
+      - name: 📥 Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: 🐍 Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12' # RenderCV funciona mejor con versiones recientes
+
+      - name: 📦 Install RenderCV
+        run: pip install rendercv
+
+      - name: 📄 Render CV
+        # Asegúrate de que 'cv.yaml' sea el nombre correcto de tu archivo
+        run: rendercv render cv.yaml
+
+      - name: 📤 Upload PDF as Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: CV_Jose_Luis_Churo
+          path: rendercv_output/*.pdf
+          retention-days: 14
+
+      # --- PASO OPCIONAL: PUBLICAR RELEASE ---
+      # Esto crea un 'Release' oficial con el PDF descargable
+      - name: 🚀 Release PDF
+        uses: softprops/action-gh-release@v1
+        if: github.ref == 'refs/heads/main'
+        with:
+          tag_name: latest
+          name: "Última Versión Actualizada"
+          files: rendercv_output/*.pdf
+          draft: false
+          prerelease: false
+          overwrite: true
