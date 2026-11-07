@@ -37,7 +37,7 @@ cv:
         end_date: "2022-01"
         summary: "Tecnologías utilizadas: Spring Boot, Quarkus, Angular, RabbitMQ, Redis, Docker, OpenShift, Oracle PL/SQL, Keycloak, Hadoop, Tableau"
         highlights:
-          - "Motor de Crédito (Claro): Lideré el diseño y arquitectura del ecosistema de microservicios asíncronos de análisis crediticio usando Spring Boot, Quarkus, Redis y RabbitMQ, reduciendo la intervención manual prácticamente al 0% y acelerando la evaluación de solicitudes en el canal comercial."
+          - "Motor de Crédito (Claro): Lideré la mejora de la arquitectura del ecosistema de microservicios asíncronos de análisis crediticio usando Spring Boot, Quarkus, Redis y RabbitMQ, reduciendo la intervención manual prácticamente al 0% y acelerando la evaluación de solicitudes en el canal comercial."
           - "Payback EDX: Automatización de procesos de negociación con clientes corporativos utilizando Keycloak, Angular y Oracle."
           - "Regularización: Sistema de procesamiento de órdenes de venta en línea y evaluación de penalizaciones integrando diversas fuentes de datos."
           - "BigData: Implementación de procesos ETL y análisis de datos en ecosistema de herramientas Hadoop, con Tableau como herramienta de visualización de datos."
