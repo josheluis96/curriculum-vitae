@@ -9,29 +9,35 @@ cv:
       username: "josheluis96"
   sections:
     summary:
-      - "Ingeniero de Sistemas con más de 7 años de trayectoria en el ciclo completo de desarrollo de software, principalmente en los sectores financiero y de telecomunicaciones. Especializado en la implementación de arquitecturas de microservicios y sistemas orientados a eventos con NestJS, Java (Spring Boot/Quarkus) y Kafka. Cuento con experiencia práctica en desarrollo móvil (React Native) y modernización de aplicaciones, integrando conocimientos de ingeniería de datos (Hadoop) y despliegues en nube (AWS/OpenShift). Orientado a la resolución de problemas técnicos complejos y a la colaboración en equipos multidisciplinarios. [Este CV está versionado como código: github.com](https://github.com/josheluis96/curriculum-vitae)"
+      - "Ingeniero de Sistemas y Tech Lead con más de 7 años de trayectoria en la arquitectura, desarrollo y escalado de software en los sectores financiero y de telecomunicaciones. Especializado en microservicios, sistemas orientados a eventos (NestJS, Spring Boot, Quarkus, Kafka) y desarrollo Full Stack (Angular 16-22, React Native). Experiencia demostrada en la implementación de arquitecturas cloud resilientes (AWS), soluciones de procesamiento masivo a gran escala, integración estratégica de herramientas de IA en el ciclo de desarrollo de software (Copilot, OpenCode, agentes customizados) y patrones avanzados de seguridad y auditoría. [Este CV está versionado como código: github.com](https://github.com/josheluis96/curriculum-vitae)"
     
     experience:
       - company: "Banco Pichincha"
-        position: "Frontend and Backend Developer"
+        position: "Frontend and Backend Developer / Tech Lead"
         location: "Quito, Ecuador"
         start_date: "2022-01"
         end_date: "present"
-        summary: "Tecnologías utilizadas: React Native, NestJS, DynamoDB, Redis, Kafka, AWS, Dynatrace, TypeScript, Angular, Framebanking"
+        summary: "Tecnologías utilizadas: React Native, NestJS, TypeScript, Angular (v16-v22), Node.js, Bun, AWS (S3, Glue, DynamoDB), Kafka, Redis, BullMQ, PostgreSQL, Browserless, Framebanking, Mambu, Dynatrace, GitHub Copilot, OpenCode"
         highlights:
-          - "App Deuna: Desarrollo de billetera digital usando React Native (Android/iOS) - Onboarding - Login - [Android Google Play Store](https://play.google.com/store/apps/details?id=com.appdeuna.wallet&pcampaignid=web_share) - [IOS App Store](https://apps.apple.com/ec/app/deuna/id1490185584)"
-          - "Estados de Cuenta: Implementación y optimización de procesos masivos de envío utilizando un modelo de colas con BullMQ, NestJS y DynamoDB."
-          - "Pago de Comisiones: Optimización de procesos masivos hacia comercios utilizando NestJS, PostgreSQL, Kafka, Framebanking y Mambu."
-          - "Migración de Angular 16 a Angular 20."
+          - "Procesamiento Masivo y Escalabilidad Horizontal: Diseñé e implementé la arquitectura del motor masivo de estados de cuenta utilizando BullMQ, NestJS y DynamoDB, logrando escalar de 10k/mes a 30k–50k envíos diarios únicamente mediante escalado horizontal de pods en la infraestructura, sin requerir refactorización de código."
+          - "Arquitectura Cloud de Notificaciones Masivas (Push & Email): Diseñé una solución serverless y desacoplada basada en AWS S3 y AWS Glue para la distribución masiva de notificaciones, creando un modelo autoservicio altamente escalable que permite a cualquier equipo disparar campañas con trazabilidad de entrega y reportes automáticos de errores."
+          - "Generación de Archivos a Escala: Desarrollé un microservicio dedicado e independiente para la generación de reportes masivos (PDF, Excel, XML) integrando Browserless, optimizando el consumo de recursos de plataforma y acelerando los tiempos de respuesta."
+          - "Librerías Transversales, Auditoría y Seguridad: Diseñé una librería distribuida de auditoría mediante decoradores personalizados (@AuditKafka) y guards para interceptar comunicaciones en Kafka y GraphQL, garantizando la trazabilidad operativa y el cumplimiento normativo mediante la sanitización automática de datos sensibles."
+          - "Desarrollo de Plataforma Web & Control de Accesos (RBAC): Lideré el desarrollo de herramientas de plataforma y back-office en Angular (migrado de v16 a v22) y Node.js, implementando un esquema granular de Control de Accesos Basado en Roles (RBAC) para elevar la seguridad y gobernanza operativa."
+          - "Modernización y Seguridad de Dependencias: Ejecuté la migración estratégica de dependencias clave de NPM hacia Bun para reforzar estándares corporativos de seguridad y optimizar tiempos de construcción."
+          - "Productividad e Ingeniería Asistida por IA: Integré tecnologías de IA (GitHub Copilot, OpenCode) en el flujo de trabajo del equipo, creando agentes de IA customizados para migraciones de código y automatizando las revisiones de Pull Requests (PRs) mediante prompts especializados."
+          - "Documentación de Flujos e Iniciativas: Estandaricé la creación de documentación técnica por iniciativa, logrando un mapeo 1:1 entre la lógica funcional de negocio y la implementación en código."
+          - "App Deuna: Desarrollo de flujos core (Onboarding y Login) para billetera digital en React Native (Android/iOS)."
+          - "Pago de Comisiones: Optimización de acreditación masiva a comercios mediante NestJS, PostgreSQL, Kafka, Framebanking y Mambu."
       
       - company: "Global Hitss"
         position: "Líder de Proyectos & Arquitecto de Microservicios"
         location: "Guayaquil, Ecuador"
         start_date: "2018-01"
         end_date: "2022-01"
-        summary: "Tecnologías utilizadas: Spring Boot, Quarkus, Angular, RabbitMQ, Redis, Docker, OpenShift, Oracle PL/SQL, Keycloak."
+        summary: "Tecnologías utilizadas: Spring Boot, Quarkus, Angular, RabbitMQ, Redis, Docker, OpenShift, Oracle PL/SQL, Keycloak, Hadoop, Tableau"
         highlights:
-          - "Motor de Crédito: Diseño de ecosistema de microservicios asíncronos para análisis crediticio y toma de decisiones autónomas usando Spring Boot, Quarkus y RabbitMQ."
+          - "Motor de Crédito (Claro): Lideré la mejora de la arquitectura del ecosistema de microservicios asíncronos de análisis crediticio usando Spring Boot, Quarkus, Redis y RabbitMQ, reduciendo la intervención manual prácticamente al 0% y acelerando la evaluación de solicitudes en el canal comercial."
           - "Payback EDX: Automatización de procesos de negociación con clientes corporativos utilizando Keycloak, Angular y Oracle."
           - "Regularización: Sistema de procesamiento de órdenes de venta en línea y evaluación de penalizaciones integrando diversas fuentes de datos."
           - "BigData: Implementación de procesos ETL y análisis de datos en ecosistema de herramientas Hadoop, con Tableau como herramienta de visualización de datos."
@@ -45,7 +51,7 @@ cv:
         highlights:
           - "Desarrollo de proyectos en Java EE y Weblogic."
           - "Creación y modificación de pantallas para módulos de ventas utilizando Java y JSP."
-          - "Creación de Feature cobros y conciliación: módulo de activación de servicios utilizando C y PLSQL"
+          - "Creación de Feature cobros y conciliación: módulo de activación de servicios utilizando C y PLSQL."
     
     education:
       - institution: "Universidad de Guayaquil"
@@ -55,18 +61,20 @@ cv:
     
     skills:
       - label: "Lenguajes"
-        details: "Java, TypeScript, JavaScript, Python, Bash, PL/SQL, SQL"
-      - label: "Frameworks Backend"
-        details: "Spring Boot, Spring Batch, Quarkus, NestJS, NodeJS, Microprofile, Hibernate/JPA"
+        details: "TypeScript, JavaScript, Java, Python, Bash, PL/SQL, SQL"
+      - label: "Backend & Arquitectura"
+        details: "NestJS, NodeJS, Bun, Spring Boot, Spring Batch, Quarkus, Microprofile, Hibernate/JPA, GraphQL, Rest APIs"
       - label: "Frontend & Mobile"
-        details: "Angular, React Native, PrimeNG"
-      - label: "Bases de Datos"
+        details: "Angular (v16-v22), React Native, PrimeNG, RBAC Security"
+      - label: "Bases de Datos & Caché"
         details: "PostgreSQL, Oracle SQL, MongoDB, DynamoDB, Redis, MySQL, Apache Hive, Apache Druid"
-      - label: "DevOps & Cloud"
-        details: "Docker, Kubernetes, OpenShift, AWS, Azure DevOps, Git, GitLab, Jenkins"
-      - label: "Big Data & Streaming"
-        details: "Apache Hadoop, Apache Kafka, RabbitMQ, Apache NiFi"
-
+      - label: "DevOps, Cloud & Herramientas"
+        details: "AWS (S3, Glue, Lambda), Docker, Kubernetes (Pods), OpenShift, Azure DevOps, Git, GitLab, Jenkins, Browserless, Dynatrace"
+      - label: "Streaming, Eventos & Mensajería"
+        details: "Apache Kafka, BullMQ, RabbitMQ, Apache NiFi, Apache Hadoop"
+      - label: "Ingeniería de Software e IA"
+        details: "GitHub Copilot, OpenCode, Agentes de IA customizados, Prompts para PRs, Trazabilidad/Auditoría (@AuditKafka), CI/CD"
+      
     languages:
       - label: "Español"
         details: "Nativo"
